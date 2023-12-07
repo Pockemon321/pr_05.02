@@ -470,7 +470,114 @@ body{
 }
 }
 @media (max-width:480px){
+/*header*/
+    .header{
+        .header__banner{
+            height: 569px;
+                .header__text-on-banner{
+                    left: 23px;
+                    bottom: 45px;
+                    h1{
+                        font-size: 32px;
+                    }
+                    p{
+                        margin-top: 11px;
+                        width: 446.312px;
+                        font-size: 16px;
+                    }
+                }
+                .line-bottom{
+                    margin-top: 20px;
+                    width: 446.312px;
+                }
+        }
+        .header__banner-other{
+            height: 255px;
+        }
+        .header__menu{
+            height: 280px;
+            ul{
+                margin: 39px auto 2px;
+                width: 115px;
+                flex-wrap: wrap;
+                li{
+                    padding-bottom: 37px;
+                        a{
+                            font-size: 24px;
+                            
+                        }
+                }
+            }    
+                
+        }
+    }
     
+    
+    /*main*/
+    .section__name{
+        margin-top: 45px;
+        margin-bottom: 17px;
+        font-size: 24px;
+    }
+    
+    .main{
+        width: 410px;
+        .main__about-company{
+            .line-left{
+                width: 3px;
+                height: 870px;
+            }
+            p{
+                width: 380px;
+                font-size: 16px;
+            }
+        }
+        .main__partners{
+            .partner__block{
+                margin: 0 auto;
+                    img{
+                        width: 377px;
+                        height: 354.775px;
+                        margin-bottom: 48px;
+                    }
+            }
+            
+        }
+        .main__details-blocks{
+            margin-bottom: 10px;
+            h2.details-blocks__name{
+                font-size: 16px;
+                margin: 22px 0;
+            }
+            .main__details-block{
+                width: 352px;
+                .details-block__small{
+                    img{
+                        width: 114.147px;
+                        height: 103.459px;
+                        margin-bottom: 10px;
+                    }
+                }
+                .details-block__large{
+                    img{
+                        width: 233.424px;
+                        height: 212.904px;
+                    }
+                }
+            }
+            .main__vacans-block{
+                width: 370px;
+                img{
+                    width: 179px;
+                    height: 262px;
+                }
+                .main__vacans-block-1{
+                    font-size: 8px;
+                    width: 184px;
+                }
+            }
+        }
+    }
 }
 @media (max-width:320px){
     
