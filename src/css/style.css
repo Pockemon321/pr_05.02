@@ -132,6 +132,34 @@ body {
   height: 858px;
   margin-left: 20px;
 }
+.main .main__details-blocks .main__vacans-block {
+  display: flex;
+  justify-content: space-between;
+}
+.main .main__details-blocks .main__vacans-block img {
+  width: 700px;
+  height: 683px;
+}
+.main .main__details-blocks .main__vacans-block .main__vacans-block-1 {
+  color: #FFF;
+  font-size: 24px;
+  margin-left: 20px;
+}
+.main .main__details-blocks .main__vacans-block .main__vacans-block-1 p {
+  margin-bottom: 20px;
+}
+.main .main__details-blocks .main__vacans-block .main__vacans-block-1 span {
+  color: #FAFF00;
+}
+.main .main__details-blocks .main__vacans-block .main__vacans-block-1 ul {
+  margin-bottom: 40px;
+}
+.main .main__details-blocks .main__vacans-block .main__vacans-block-1 ul li {
+  list-style-type: none;
+}
+.main .main__details-blocks .main__vacans-block .main__vacans-block-1 ul li:before {
+  content: "- ";
+}
 
 /*footer*/
 .footer {

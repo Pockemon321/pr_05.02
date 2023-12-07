@@ -141,6 +141,34 @@ body{
                 }
             }
         }
+        .main__vacans-block{
+            display: flex;
+            justify-content: space-between;
+            img{
+                width: 700px;
+                height: 683px;
+            }
+            .main__vacans-block-1{
+                color: #FFF;
+                font-size: 24px;
+                margin-left: 20px;
+                p{
+                    margin-bottom: 20px;
+                }
+                span{
+                    color: #FAFF00;
+                }
+                ul{
+                    margin-bottom: 40px;
+                    li{
+                        list-style-type: none;
+                    }
+                    li:before {
+                        content: "- "; 
+                       }
+                }
+            }
+        }
     }
 }
 
