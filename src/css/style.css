@@ -182,4 +182,112 @@ body {
   color: #FFF;
   font-size: 20px;
   margin-bottom: 25px;
+}
+
+@media (max-width: 1024px) {
+  /*header*/
+  .header .header__banner {
+    height: 860px;
+  }
+  .header .header__banner .header__text-on-banner {
+    left: 61px;
+    bottom: 69px;
+  }
+  .header .header__banner .header__text-on-banner h1 {
+    font-size: 48px;
+  }
+  .header .header__banner .header__text-on-banner p {
+    margin-top: 24px;
+    width: 618px;
+    font-size: 24px;
+  }
+  .header .header__banner .line-bottom {
+    margin-top: 20px;
+    width: 630px;
+  }
+  .header .header__banner-other {
+    height: 355px;
+  }
+  .header .header__menu {
+    height: 120px;
+  }
+  .header .header__menu ul {
+    margin: 39px auto;
+    width: 636px;
+  }
+  .header .header__menu ul li a {
+    font-size: 32px;
+  }
+  /*main*/
+  .section__name {
+    margin-top: 78px;
+    margin-bottom: 78px;
+    font-size: 32px;
+  }
+  .main {
+    width: 944px;
+  }
+  .main .main__about-company .line-left {
+    width: 3px;
+    height: 630px;
+    background: #FAFF00;
+  }
+  .main .main__about-company p {
+    width: 909px;
+    font-size: 20px;
+  }
+  .main .main__details-blocks {
+    margin-bottom: 53px;
+  }
+  .main .main__details-blocks h2.details-blocks__name {
+    font-size: 24px;
+    margin: 30px 0;
+  }
+  .main .main__details-blocks .main__details-block {
+    width: 830px;
+    margin: 0 auto;
+  }
+  .main .main__details-blocks .main__details-block .details-block__small img {
+    width: 267px;
+    height: 242px;
+    margin-bottom: 15px;
+  }
+  .main .main__details-blocks .main__details-block .details-block__large img {
+    width: 546px;
+    height: 498px;
+    margin-left: 0;
+  }
+  .main .main__details-blocks .main__vacans-block {
+    width: 820px;
+    margin: 0 auto;
+  }
+  .main .main__details-blocks .main__vacans-block img {
+    width: 400px;
+    height: 390px;
+  }
+  .main .main__details-blocks .main__vacans-block .main__vacans-block-1 {
+    font-size: 14px;
+    width: 410px;
+  }
+  .main .main__details-blocks .main__vacans-block .main__vacans-block-1 p {
+    margin-bottom: 10px;
+  }
+  .main .main__details-blocks .main__vacans-block .main__vacans-block-1 ul {
+    margin-bottom: 15px;
+  }
+  /*footer*/
+  .footer {
+    margin-top: 90px;
+    height: 324px;
+  }
+  .footer .foot {
+    margin: 74px 0 58px;
+  }
+  .footer .footer-menu {
+    width: 788px;
+  }
+  .footer .footer-menu ul li {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
 }/*# sourceMappingURL=style.css.map */

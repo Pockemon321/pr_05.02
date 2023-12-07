@@ -197,3 +197,140 @@ body{
     }
     
 }
+
+@media (max-width:1024px){
+/*header*/
+.header{
+   
+    .header__banner{
+        height: 860px;
+            .header__text-on-banner{
+                left: 61px;
+                bottom: 69px;
+                h1{
+                    font-size: 48px;
+                }
+                p{
+                    margin-top: 24px;
+                    width: 618px;
+                    font-size: 24px;
+                }
+            }
+            .line-bottom{
+                margin-top: 20px;
+                width: 630px;
+            }
+    }
+    .header__banner-other{
+        height: 355px;
+    }
+    .header__menu{
+        height: 120px;
+        ul{
+            margin: 39px auto;
+            width: calc(144px + 98px + 143px + 98px + 153px);
+            li{
+                    a{
+                        font-size: 32px;
+                    }
+            }
+        }    
+            
+    }
+}
+
+
+/*main*/
+.section__name{
+    margin-top: 78px;
+    margin-bottom: 78px;
+    font-size: 32px;
+}
+
+.main{
+    width: 944px;
+    .main__about-company{
+        .line-left{
+            width: 3px;
+            height: 630px;
+            background: #FAFF00;
+        }
+        p{
+            width: 909px;
+            font-size: 20px;
+        }
+    }
+    
+    .main__details-blocks{
+        margin-bottom: 53px;
+        h2.details-blocks__name{
+            font-size: 24px;
+            margin: 30px 0;
+        }
+        .main__details-block{
+            width: 830px;
+            margin: 0 auto;
+            .details-block__small{
+                img{
+                    width: 267px;
+                    height: 242px;
+                    margin-bottom: 15px;
+                }
+            }
+            .details-block__large{
+                img{
+                    width: 546px;
+                    height: 498px;
+                    margin-left: 0;
+                }
+            }
+        }
+        .main__vacans-block{
+            width: 820px;
+            margin: 0 auto;
+            img{
+                width: 400px;
+                height: 390px;
+            }
+            .main__vacans-block-1{
+                font-size: 14px;
+                width: 410px;
+                p{
+                    margin-bottom: 10px;
+                }
+                ul{
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}
+
+/*footer*/
+.footer{
+    margin-top: 90px;
+    height: 324px;
+    .foot{
+        margin: 74px 0 58px;
+    }
+    .footer-menu{
+        width: calc(192px + 150px + 255px + 123px + 68px);
+            ul{
+                li{
+                    font-size: 20px;
+                    margin-bottom: 25px;
+                }
+            }
+    }
+    
+}
+}
+@media (max-width:768px){
+    
+}
+@media (max-width:480px){
+    
+}
+@media (max-width:320px){
+    
+}
