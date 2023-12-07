@@ -1,0 +1,29 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="./css/style.css")
+    body
+        include modules/header(other)
+        .main
+            h1.section__name Каталог
+            .line-horizontal
+            .main__details-blocks
+                h2.details-blocks__name Изготовление деталей на станках
+                .main__details-block
+                    .details-block__small
+                        img(src="./img/img_detail.png", alt="")
+                        img(src="./img/img_detail.png", alt="")
+                    .details-block__large
+                        img(src="./img/img_detail_two.png", alt="")
+                h2.details-blocks__name Изготовление деталей на станках
+                .main__details-block
+                    .details-block__small
+                        img(src="./img/img_detail.png", alt="")
+                        img(src="./img/img_detail.png", alt="")
+                    .details-block__large
+                        img(src="./img/img_detail_two.png", alt="")
+            .line-horizontal
+        include modules/footer

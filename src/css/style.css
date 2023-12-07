@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Prosto+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Prosto One", sans-serif;
+  font-style: normal;
+}
+
+body {
+  background-color: #272C31;
+}
+
+/*header*/
+.header .header__banner {
+  background-image: url("../img/bg_header-banner.png");
+  width: 100%;
+  height: 860px;
+  position: relative;
+}
+.header .header__banner .header__text-on-banner {
+  position: absolute;
+  font-weight: 400;
+  left: 61px;
+  bottom: 69px;
+}
+.header .header__banner .header__text-on-banner h1 {
+  color: #FAFF00;
+  font-size: 48px;
+}
+.header .header__banner .header__text-on-banner p {
+  margin-top: 24px;
+  width: 618px;
+  color: #FFF;
+  font-size: 24px;
+}
+.header .header__banner .line-bottom {
+  margin-top: 20px;
+  width: 630px;
+  height: 3px;
+  background: #FAFF00;
+}
+.header .header__banner-other {
+  height: 355px;
+}
+.header .header__menu {
+  width: 100%;
+  height: 120px;
+  border-top: 3px solid #FAFF00;
+  border-bottom: 3px solid #FAFF00;
+}
+.header .header__menu ul {
+  margin: 39px auto;
+  width: 636px;
+  display: flex;
+  justify-content: space-between;
+}
+.header .header__menu ul li {
+  list-style-type: none;
+}
+.header .header__menu ul li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: Prosto One;
+  font-size: 32px;
+}
+
+/*main*/
+.section__name {
+  margin-top: 78px;
+  margin-bottom: 78px;
+  font-size: 32px;
+  color: #FAFF00;
+  text-align: center;
+}
+
+.main {
+  width: 1402px;
+  margin: 0 auto;
+}
+.main .main__about-company {
+  display: flex;
+  justify-content: space-between;
+}
+.main .main__about-company .line-left {
+  width: 3px;
+  height: 630px;
+  background: #FAFF00;
+}
+.main .main__about-company p {
+  width: 1342px;
+  color: #FFF;
+  font-size: 24px;
+}
+.main .main__partners {
+  display: flex;
+  justify-content: space-between;
+}
+.main .line-horizontal {
+  width: 1420.003px;
+  height: 3px;
+  background: #FAFF00;
+}
+.main .main__details-blocks {
+  margin-bottom: 89px;
+}
+.main .main__details-blocks h2.details-blocks__name {
+  color: #FFF;
+  font-family: Prosto One;
+  font-size: 32px;
+  text-align: left;
+  margin: 57px 0;
+}
+.main .main__details-blocks .main__details-block {
+  display: flex;
+  justify-content: space-between;
+}
+.main .main__details-blocks .main__details-block .details-block__small {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main .main__details-blocks .main__details-block .details-block__small img {
+  width: 460px;
+  height: 416px;
+  margin-bottom: 26px;
+}
+.main .main__details-blocks .main__details-block .details-block__small img:nth-child(2) {
+  margin-bottom: 0;
+}
+.main .main__details-blocks .main__details-block .details-block__large img {
+  width: 940px;
+  height: 858px;
+  margin-left: 20px;
+}
+
+/*footer*/
+.footer {
+  margin-top: 135px;
+  height: 324px;
+  border-top: 3px solid #FAFF00;
+  border-bottom: 3px solid #FAFF00;
+}
+.footer .foot {
+  margin: 78px 0 58px;
+}
+.footer .footer-menu {
+  width: 1029px;
+  margin: 0 auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer-menu ul li {
+  list-style-type: none;
+  color: #FFF;
+  font-size: 20px;
+  margin-bottom: 25px;
+}/*# sourceMappingURL=style.css.map */
