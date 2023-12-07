@@ -579,6 +579,97 @@ body{
         }
     }
 }
-@media (max-width:320px){
+
+@media (max-width:360px){
+    /*header*/
+    .header{
+        .header__banner{
+            height: 465px;
+                .header__text-on-banner{
+                    left: 23px;
+                    bottom: 45px;
+                    h1{
+                        font-size: 24px;
+                    }
+                    p{
+                        margin-top: 8px;
+                        width: 323.287px;
+                        font-size: 13px;
+                    }
+                }
+                .line-bottom{
+                    margin-top: 20px;
+                    width: 323px;
+                }
+        }
+        .header__banner-other{
+            height: 195px;
+        }
+        .header__menu{
+            height: 220px;  
+        }
+    }
     
+    /*main*/
+    .section__name{
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+    
+    .main{
+        width: 320px;
+        .main__about-company{
+            .line-left{
+                height: 800px;
+            }
+            p{
+                width: 300px;
+                font-size: 14px;
+            }
+        }
+        .main__partners{
+            .partner__block{
+                    img{
+                        width: 255.687px;
+                        height: 240.614px;
+                        margin-bottom: 20px;
+                    }
+            }
+            
+        }
+        .main__details-blocks{
+            margin-bottom: 10px;
+            h2.details-blocks__name{
+                font-size: 11px;
+                margin: 10px 0;
+            }
+            .main__details-block{
+                width: 240px;
+                .details-block__small{
+                    img{
+                        width: 77.408px;
+                        height: 70.16px;
+                        margin-bottom: 5px;
+                    }
+                }
+                .details-block__large{
+                    img{
+                        width: 158.295px;
+                        height: 144.379px;
+                    }
+                }
+            }
+            .main__vacans-block{
+                width: 320px;
+                img{
+                    width: 156px;
+                    height: 267px;
+                }
+                .main__vacans-block-1{
+                    font-size: 8px;
+                    width: 160px;
+                }
+            }
+        }
+    }
 }
